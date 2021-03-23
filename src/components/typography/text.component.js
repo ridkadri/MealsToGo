@@ -18,12 +18,12 @@ const hint = (theme) => `
 `;
 
 const error = (theme) => `
-    font-size: ${theme.fontSizes.error};
+   color: ${theme.colors.text.error};
 `;
 
 const caption = (theme) => `
-    font-size: ${theme.fontSizes.body};
-    font-weight: ${theme.fontWeights.medium};
+    font-size: ${theme.fontSizes.caption};
+    font-weight: ${theme.fontWeights.bold};
 `;
 
 const label = (theme) => `
